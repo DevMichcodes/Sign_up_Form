@@ -1,0 +1,21 @@
+html{
+    background-image: url('images/bgimage.jpg');
+}
+.form_space{
+    background-color: white;
+    max-width: 800px;
+    padding: 40px;
+    margin-left: 600px;
+    height: 800px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.section_1,.section_2,.section_3{
+    display: flex;
+    gap: 10px;
+}
